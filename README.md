@@ -2,7 +2,7 @@
 
 > Connects [Discord](https://discordapp.com/) and IRC channels by sending messages back and forth.
 
-> A fork from reactiflux's one, adding a logfile (mandatory) and a removal of usernames of other bridge bots. See the config file examples.
+> A fork from https://github.com/melopee/discord-irc , but for https://github.com/abalabahaha/eris .
 
 ## Example
 ![discord-irc](http://i.imgur.com/oI6iCrf.gif)
