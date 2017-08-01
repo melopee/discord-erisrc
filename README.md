@@ -51,7 +51,7 @@ First you need to create a Discord bot user, which you can do by following the i
     "discordToken": "botwantsin123",
     "channelMapping": {
       "#other-discord": "#new-irc-channel"
-    }
+    },
     "logFile": "/path/to/the/log/file/discord-irc-bot.log"
   },
 
@@ -87,7 +87,7 @@ First you need to create a Discord bot user, which you can do by following the i
     // Makes the bot hide the username prefix for messages that start
     // with one of these characters (commands):
     "commandCharacters": ["!", "."],
-    "ircStatusNotices": true // Enables notifications in Discord when people join/part in the relevant IRC channel
+    "ircStatusNotices": true, // Enables notifications in Discord when people join/part in the relevant IRC channel
     "logFile": "./discord-irc-bot.log", // Mandatory, the ./ notation accesses the directory where the bot is launched.
     "logFileJson": true, // JSON format for the logfile.
     "avoidedIrcBot": "^^^^" // When the irc one called '^^^^' will say a thing like '<anusernamebetweenbracket>: some words', it will be displayed on discord as if anusernamebetweenbracket was speaking on IRC. This feature is added for chatrooms where there're multiple bridge bots for various software (Telegram, Slack, ...) which do not share the same name.
